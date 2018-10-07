@@ -1,5 +1,5 @@
 class MapsController < ApplicationController
   def index
-    @markers = []
+    @states = 'https://www.nohrsc.noaa.gov/data/vector/master/st_us.kmz'
   end
 end
