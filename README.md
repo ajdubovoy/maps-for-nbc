@@ -1,1 +1,1 @@
-Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
+Rails app to visualize data for news services in advance of the 2018 US midterm elections. Create for the (Trust the Vote)[https://trustthevote.org] project.
