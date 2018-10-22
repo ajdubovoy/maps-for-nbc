@@ -125,14 +125,14 @@ final_data.each do |row|
 end
 
 
-cdcounties = []
+counties_within_cds = []
 CSV.foreach('counties-within-cds.csv', csv_options) do |row|
-  cdcounties << row.to_hash
+  counties_within_cds << row.to_hash
 end
 
 final_data.each do |row|
-  selected = cdcounties.find { |cd_row| row['state'].to_i == cd_row['STATEFP'].to_i && row['county'].to_i == cd_row['COUNTFP'].to_i }
-  row['cd'] = cd['CD115FP'] unless selected.nil?
+  selected = counties_within_cds.find { |cd_row| row['state'].to_i == cd_row['STATEFP'].to_i && row['county'].to_i == cd_row['COUNTYFP'].to_i }
+  row['cd'] = selected['CD115FP'] unless selected.nil?
   row['cd'] = 'no_data' if selected.nil?
 end
 
@@ -142,9 +142,9 @@ CSV.foreach('CDs-V4-Oct19.csv', csv_options) do |row|
 end
 
 final_data.each do |row|
-  cd = cds.find { |cd_row| cd_row['STATE_FIPS'].to_i == row['state'].to_i && cd_row['CD_115_FIPS'].to_i == row['cd'].to_i }
-  row['toss_up_cd'] = cd['CD_TossUp'] unless cd.nil?
-  row['toss_up_cd'] = 'no_data' if cd.nil?
+  selected = cds.find { |cd_row| cd_row['STATE_FIPS'].to_i == row['state'].to_i && cd_row['CD_115_FIPS'].to_i == row['cd'].to_i }
+  row['toss_up_cd'] = selected['CD_TossUp'] unless selected.nil?
+  row['toss_up_cd'] = 'no_data' if selected.nil?
 end
 
 CSV.open('counties-transformed.csv', 'wb', csv_options) do |csv|
