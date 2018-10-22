@@ -1,0 +1,442 @@
+STATE_FIPS,State_Postal ,CD_115_FIPS,CD_State_n,State_Name,CD_TossUp
+1,AL,1,AL-01,Alabama,N
+1,AL,2,AL-02,Alabama,N
+1,AL,3,AL-03,Alabama,N
+1,AL,4,AL-04,Alabama,N
+1,AL,5,AL-05,Alabama,N
+1,AL,6,AL-06,Alabama,N
+1,AL,7,AL-07,Alabama,N
+2,AK,0,AK-00,Alaska,N
+4,AZ,1,AZ-01,Arizona,N
+4,AZ,2,AZ-02,Arizona,N
+4,AZ,3,AZ-03,Arizona,N
+4,AZ,4,AZ-04,Arizona,N
+4,AZ,5,AZ-05,Arizona,N
+4,AZ,6,AZ-06,Arizona,N
+4,AZ,7,AZ-07,Arizona,N
+4,AZ,8,AZ-08,Arizona,N
+4,AZ,9,AZ-09,Arizona,N
+5,AR,1,AR-01,Arkansas,N
+5,AR,2,AR-02,Arkansas,N
+5,AR,3,AR-03,Arkansas,N
+5,AR,4,AR-04,Arkansas,N
+6,CA,1,CA-01,California,N
+6,CA,2,CA-02,California,N
+6,CA,3,CA-03,California,N
+6,CA,4,CA-04,California,N
+6,CA,5,CA-05,California,N
+6,CA,6,CA-06,California,N
+6,CA,7,CA-07,California,N
+6,CA,8,CA-08,California,N
+6,CA,9,CA-09,California,N
+6,CA,10,CA-10,California,Y
+6,CA,11,CA-11,California,N
+6,CA,12,CA-12,California,N
+6,CA,13,CA-13,California,N
+6,CA,14,CA-14,California,N
+6,CA,15,CA-15,California,N
+6,CA,16,CA-16,California,N
+6,CA,17,CA-17,California,N
+6,CA,18,CA-18,California,N
+6,CA,19,CA-19,California,N
+6,CA,20,CA-20,California,N
+6,CA,21,CA-21,California,N
+6,CA,22,CA-22,California,N
+6,CA,23,CA-23,California,N
+6,CA,24,CA-24,California,N
+6,CA,25,CA-25,California,Y
+6,CA,26,CA-26,California,N
+6,CA,27,CA-27,California,N
+6,CA,28,CA-28,California,N
+6,CA,29,CA-29,California,N
+6,CA,30,CA-30,California,N
+6,CA,31,CA-31,California,N
+6,CA,32,CA-32,California,N
+6,CA,33,CA-33,California,N
+6,CA,34,CA-34,California,N
+6,CA,35,CA-35,California,N
+6,CA,36,CA-36,California,N
+6,CA,37,CA-37,California,N
+6,CA,38,CA-38,California,N
+6,CA,39,CA-39,California,Y
+6,CA,40,CA-40,California,N
+6,CA,41,CA-41,California,N
+6,CA,42,CA-42,California,N
+6,CA,43,CA-43,California,N
+6,CA,44,CA-44,California,N
+6,CA,45,CA-45,California,Y
+6,CA,46,CA-46,California,N
+6,CA,47,CA-47,California,N
+6,CA,48,CA-48,California,Y
+6,CA,49,CA-49,California,N
+6,CA,50,CA-50,California,N
+6,CA,51,CA-51,California,N
+6,CA,52,CA-52,California,N
+6,CA,53,CA-53,California,N
+8,CO,1,CO-01,Colorado,N
+8,CO,2,CO-02,Colorado,N
+8,CO,3,CO-03,Colorado,N
+8,CO,4,CO-04,Colorado,N
+8,CO,5,CO-05,Colorado,N
+8,CO,6,CO-06,Colorado,N
+8,CO,7,CO-07,Colorado,N
+9,CT,1,CT-01,Connecticut,N
+9,CT,2,CT-02,Connecticut,N
+9,CT,3,CT-03,Connecticut,N
+9,CT,4,CT-04,Connecticut,N
+9,CT,5,CT-05,Connecticut,N
+10,DE,0,DE-00,Delaware,N
+11,DC,98,DC-19,District of Columbia,N
+12,FL,1,FL-01,Florida,N
+12,FL,2,FL-02,Florida,N
+12,FL,3,FL-03,Florida,N
+12,FL,4,FL-04,Florida,N
+12,FL,5,FL-05,Florida,N
+12,FL,6,FL-06,Florida,N
+12,FL,7,FL-07,Florida,N
+12,FL,8,FL-08,Florida,N
+12,FL,9,FL-09,Florida,N
+12,FL,10,FL-10,Florida,N
+12,FL,11,FL-11,Florida,N
+12,FL,12,FL-12,Florida,N
+12,FL,13,FL-13,Florida,N
+12,FL,14,FL-14,Florida,N
+12,FL,15,FL-15,Florida,N
+12,FL,16,FL-16,Florida,N
+12,FL,17,FL-17,Florida,N
+12,FL,18,FL-18,Florida,N
+12,FL,19,FL-19,Florida,N
+12,FL,20,FL-20,Florida,N
+12,FL,21,FL-21,Florida,N
+12,FL,22,FL-22,Florida,N
+12,FL,23,FL-23,Florida,N
+12,FL,24,FL-24,Florida,N
+12,FL,25,FL-25,Florida,N
+12,FL,26,FL-26,Florida,Y
+12,FL,27,FL-27,Florida,Y
+13,GA,1,GA-01,Georgia,N
+13,GA,2,GA-02,Georgia,N
+13,GA,3,GA-03,Georgia,N
+13,GA,4,GA-04,Georgia,N
+13,GA,5,GA-05,Georgia,N
+13,GA,6,GA-06,Georgia,N
+13,GA,7,GA-07,Georgia,N
+13,GA,8,GA-08,Georgia,N
+13,GA,9,GA-09,Georgia,N
+13,GA,10,GA-10,Georgia,N
+13,GA,11,GA-11,Georgia,N
+13,GA,12,GA-12,Georgia,N
+13,GA,13,GA-13,Georgia,N
+13,GA,14,GA-14,Georgia,N
+15,HI,1,HI-01,Hawaii,N
+15,HI,2,HI-02,Hawaii,N
+16,ID,1,ID-01,Idaho,N
+16,ID,2,ID-02,Idaho,N
+17,IL,1,IL-01,Illinis,N
+17,IL,2,IL-02,Illinis,N
+17,IL,3,IL-03,Illinis,N
+17,IL,4,IL-04,Illinis,N
+17,IL,5,IL-05,Illinis,N
+17,IL,6,IL-06,Illinis,N
+17,IL,7,IL-07,Illinis,N
+17,IL,8,IL-08,Illinis,N
+17,IL,9,IL-09,Illinis,N
+17,IL,10,IL-10,Illinis,N
+17,IL,11,IL-11,Illinis,N
+17,IL,12,IL-12,Illinis,Y
+17,IL,13,IL-13,Illinis,N
+17,IL,14,IL-14,Illinis,Y
+17,IL,15,IL-15,Illinis,N
+17,IL,16,IL-16,Illinis,N
+17,IL,17,IL-17,Illinis,N
+17,IL,18,IL-18,Illinis,N
+18,IN,1,IN-01,Indiana,N
+18,IN,2,IN-02,Indiana,N
+18,IN,3,IN-03,Indiana,N
+18,IN,4,IN-04,Indiana,N
+18,IN,5,IN-05,Indiana,N
+18,IN,6,IN-06,Indiana,N
+18,IN,7,IN-07,Indiana,N
+18,IN,8,IN-08,Indiana,N
+18,IN,9,IN-09,Indiana,N
+19,IA,1,IA-01,Iowa,N
+19,IA,2,IA-02,Iowa,N
+19,IA,3,IA-03,Iowa,Y
+19,IA,4,IA-04,Iowa,N
+20,KS,1,KS-01,Kansas,N
+20,KS,2,KS-02,Kansas,Y
+20,KS,3,KS-03,Kansas,N
+20,KS,4,KS-04,Kansas,N
+21,KY,1,KY-01,Kentucky,N
+21,KY,2,KY-02,Kentucky,N
+21,KY,3,KY-03,Kentucky,N
+21,KY,4,KY-04,Kentucky,N
+21,KY,5,KY-05,Kentucky,N
+21,KY,6,KY-06,Kentucky,Y
+22,LA,1,LA-01,Louisiana,N
+22,LA,2,LA-02,Louisiana,N
+22,LA,3,LA-03,Louisiana,N
+22,LA,4,LA-04,Louisiana,N
+22,LA,5,LA-05,Louisiana,N
+22,LA,6,LA-06,Louisiana,N
+23,ME,1,ME-01,Maine,N
+23,ME,2,ME-02,Maine,Y
+24,MD,1,MD-01,Maryland,N
+24,MD,2,MD-02,Maryland,N
+24,MD,3,MD-03,Maryland,N
+24,MD,4,MD-04,Maryland,N
+24,MD,5,MD-05,Maryland,N
+24,MD,6,MD-06,Maryland,N
+24,MD,7,MD-07,Maryland,N
+24,MD,8,MD-08,Maryland,N
+25,MA,1,MA-01,Massachusetts,N
+25,MA,2,MA-02,Massachusetts,N
+25,MA,3,MA-03,Massachusetts,N
+25,MA,4,MA-04,Massachusetts,N
+25,MA,5,MA-05,Massachusetts,N
+25,MA,6,MA-06,Massachusetts,N
+25,MA,7,MA-07,Massachusetts,N
+25,MA,8,MA-08,Massachusetts,N
+25,MA,9,MA-09,Massachusetts,N
+26,MI,1,MI-01,Michigan,N
+26,MI,2,MI-02,Michigan,N
+26,MI,3,MI-03,Michigan,N
+26,MI,4,MI-04,Michigan,N
+26,MI,5,MI-05,Michigan,N
+26,MI,6,MI-06,Michigan,N
+26,MI,7,MI-07,Michigan,N
+26,MI,8,MI-08,Michigan,Y
+26,MI,9,MI-09,Michigan,N
+26,MI,10,MI-10,Michigan,N
+26,MI,11,MI-11,Michigan,N
+26,MI,12,MI-12,Michigan,N
+26,MI,13,MI-13,Michigan,N
+26,MI,14,MI-14,Michigan,N
+27,MN,1,MN-01,Minnesota,Y
+27,MN,2,MN-02,Minnesota,N
+27,MN,3,MN-03,Minnesota,N
+27,MN,4,MN-04,Minnesota,N
+27,MN,5,MN-05,Minnesota,N
+27,MN,6,MN-06,Minnesota,N
+27,MN,7,MN-07,Minnesota,N
+27,MN,8,MN-08,Minnesota,Y
+28,MS,1,MS-01,Mississippi,N
+28,MS,2,MS-02,Mississippi,N
+28,MS,3,MS-03,Mississippi,N
+28,MS,4,MS-04,Mississippi,N
+29,MO,1,MO-01,Missouri,N
+29,MO,2,MO-02,Missouri,N
+29,MO,3,MO-03,Missouri,N
+29,MO,4,MO-04,Missouri,N
+29,MO,5,MO-05,Missouri,N
+29,MO,6,MO-06,Missouri,N
+29,MO,7,MO-07,Missouri,N
+29,MO,8,MO-08,Missouri,N
+30,MT,0,MT-00,Montana,N
+31,NE,1,NE-01,Nebraska,N
+31,NE,2,NE-02,Nebraska,N
+31,NE,3,NE-03,Nebraska,N
+32,NV,1,NV-01,Nevada,N
+32,NV,2,NV-02,Nevada,N
+32,NV,3,NV-03,Nevada,N
+32,NV,4,NV-04,Nevada,N
+33,NH,1,NH-01,New Hampshire,N
+33,NH,2,NH-02,New Hampshire,N
+34,NJ,1,NJ-01,New Jersey,N
+34,NJ,2,NJ-02,New Jersey,N
+34,NJ,3,NJ-03,New Jersey,Y
+34,NJ,4,NJ-04,New Jersey,N
+34,NJ,5,NJ-05,New Jersey,N
+34,NJ,6,NJ-06,New Jersey,N
+34,NJ,7,NJ-07,New Jersey,Y
+34,NJ,8,NJ-08,New Jersey,N
+34,NJ,9,NJ-09,New Jersey,N
+34,NJ,10,NJ-10,New Jersey,N
+34,NJ,11,NJ-11,New Jersey,N
+34,NJ,12,NJ-12,New Jersey,N
+35,NM,1,NM-01,New Mexico,N
+35,NM,2,NM-02,New Mexico,Y
+35,NM,3,NM-03,New Mexico,N
+36,NY,1,NY-01,New York,N
+36,NY,2,NY-02,New York,N
+36,NY,3,NY-03,New York,N
+36,NY,4,NY-04,New York,N
+36,NY,5,NY-05,New York,N
+36,NY,6,NY-06,New York,N
+36,NY,7,NY-07,New York,N
+36,NY,8,NY-08,New York,N
+36,NY,9,NY-09,New York,N
+36,NY,10,NY-10,New York,N
+36,NY,11,NY-11,New York,N
+36,NY,12,NY-12,New York,N
+36,NY,13,NY-13,New York,N
+36,NY,14,NY-14,New York,N
+36,NY,15,NY-15,New York,N
+36,NY,16,NY-16,New York,N
+36,NY,17,NY-17,New York,N
+36,NY,18,NY-18,New York,N
+36,NY,19,NY-19,New York,Y
+36,NY,20,NY-20,New York,N
+36,NY,21,NY-21,New York,N
+36,NY,22,NY-22,New York,Y
+36,NY,23,NY-23,New York,N
+36,NY,24,NY-24,New York,N
+36,NY,25,NY-25,New York,N
+36,NY,26,NY-26,New York,N
+36,NY,27,NY-27,New York,N
+37,NC,1,NC-01,North Carolina,N
+37,NC,2,NC-02,North Carolina,N
+37,NC,3,NC-03,North Carolina,N
+37,NC,4,NC-04,North Carolina,N
+37,NC,5,NC-05,North Carolina,N
+37,NC,6,NC-06,North Carolina,N
+37,NC,7,NC-07,North Carolina,N
+37,NC,8,NC-08,North Carolina,N
+37,NC,9,NC-09,North Carolina,Y
+37,NC,10,NC-10,North Carolina,N
+37,NC,11,NC-11,North Carolina,N
+37,NC,12,NC-12,North Carolina,N
+37,NC,13,NC-13,North Carolina,Y
+38,ND,0,ND-00,North Dakota,N
+39,OH,1,OH-01,Ohio,Y
+39,OH,2,OH-02,Ohio,N
+39,OH,3,OH-03,Ohio,N
+39,OH,4,OH-04,Ohio,N
+39,OH,5,OH-05,Ohio,N
+39,OH,6,OH-06,Ohio,N
+39,OH,7,OH-07,Ohio,N
+39,OH,8,OH-08,Ohio,N
+39,OH,9,OH-09,Ohio,N
+39,OH,10,OH-10,Ohio,N
+39,OH,11,OH-11,Ohio,N
+39,OH,12,OH-12,Ohio,N
+39,OH,13,OH-13,Ohio,N
+39,OH,14,OH-14,Ohio,N
+39,OH,15,OH-15,Ohio,N
+39,OH,16,OH-16,Ohio,N
+40,OK,1,OK-01,Oklahoma,N
+40,OK,2,OK-02,Oklahoma,N
+40,OK,3,OK-03,Oklahoma,N
+40,OK,4,OK-04,Oklahoma,N
+40,OK,5,OK-05,Oklahoma,N
+41,OR,1,OR-01,Oregon,N
+41,OR,2,OR-02,Oregon,N
+41,OR,3,OR-03,Oregon,N
+41,OR,4,OR-04,Oregon,N
+41,OR,5,OR-05,Oregon,N
+42,PA,1,PA-01,Pennsylvania,Y
+42,PA,2,PA-02,Pennsylvania,N
+42,PA,3,PA-03,Pennsylvania,N
+42,PA,4,PA-04,Pennsylvania,N
+42,PA,5,PA-05,Pennsylvania,N
+42,PA,6,PA-06,Pennsylvania,N
+42,PA,7,PA-07,Pennsylvania,N
+42,PA,8,PA-08,Pennsylvania,N
+42,PA,9,PA-09,Pennsylvania,N
+42,PA,10,PA-10,Pennsylvania,N
+42,PA,11,PA-11,Pennsylvania,N
+42,PA,12,PA-12,Pennsylvania,N
+42,PA,13,PA-13,Pennsylvania,N
+42,PA,14,PA-14,Pennsylvania,N
+42,PA,15,PA-15,Pennsylvania,N
+42,PA,16,PA-16,Pennsylvania,N
+42,PA,17,PA-17,Pennsylvania,N
+42,PA,18,PA-18,Pennsylvania,N
+44,RI,1,RI-01,Rhode Island,N
+44,RI,2,RI-02,Rhode Island,N
+45,SC,1,SC-01,South Carolina,N
+45,SC,2,SC-02,South Carolina,N
+45,SC,3,SC-03,South Carolina,N
+45,SC,4,SC-04,South Carolina,N
+45,SC,5,SC-05,South Carolina,N
+45,SC,6,SC-06,South Carolina,N
+45,SC,7,SC-07,South Carolina,N
+46,SD,0,SD-00,South Dakota,N
+47,TN,1,TN-01,Tennessee,N
+47,TN,2,TN-02,Tennessee,N
+47,TN,3,TN-03,Tennessee,N
+47,TN,4,TN-04,Tennessee,N
+47,TN,5,TN-05,Tennessee,N
+47,TN,6,TN-06,Tennessee,N
+47,TN,7,TN-07,Tennessee,N
+47,TN,8,TN-08,Tennessee,N
+47,TN,9,TN-09,Tennessee,N
+48,TX,1,TX-01,Texas,N
+48,TX,2,TX-02,Texas,N
+48,TX,3,TX-03,Texas,N
+48,TX,4,TX-04,Texas,N
+48,TX,5,TX-05,Texas,N
+48,TX,6,TX-06,Texas,N
+48,TX,7,TX-07,Texas,Y
+48,TX,8,TX-08,Texas,N
+48,TX,9,TX-09,Texas,N
+48,TX,10,TX-10,Texas,N
+48,TX,11,TX-11,Texas,N
+48,TX,12,TX-12,Texas,N
+48,TX,13,TX-13,Texas,N
+48,TX,14,TX-14,Texas,N
+48,TX,15,TX-15,Texas,N
+48,TX,16,TX-16,Texas,N
+48,TX,17,TX-17,Texas,N
+48,TX,18,TX-18,Texas,N
+48,TX,19,TX-19,Texas,N
+48,TX,20,TX-20,Texas,N
+48,TX,21,TX-21,Texas,N
+48,TX,22,TX-22,Texas,N
+48,TX,23,TX-23,Texas,N
+48,TX,24,TX-24,Texas,N
+48,TX,25,TX-25,Texas,N
+48,TX,26,TX-26,Texas,N
+48,TX,27,TX-27,Texas,N
+48,TX,28,TX-28,Texas,N
+48,TX,29,TX-29,Texas,N
+48,TX,30,TX-30,Texas,N
+48,TX,31,TX-31,Texas,N
+48,TX,32,TX-32,Texas,Y
+48,TX,33,TX-33,Texas,N
+48,TX,34,TX-34,Texas,N
+48,TX,35,TX-35,Texas,N
+48,TX,36,TX-36,Texas,N
+49,UT,1,UT-01,Utah,N
+49,UT,2,UT-02,Utah,N
+49,UT,3,UT-03,Utah,N
+49,UT,4,UT-04,Utah,Y
+50,VT,0,VT-00,Vermont,N
+51,VA,1,VA-01,Virginia,N
+51,VA,2,VA-02,Virginia,Y
+51,VA,3,VA-03,Virginia,N
+51,VA,4,VA-04,Virginia,N
+51,VA,5,VA-05,Virginia,N
+51,VA,6,VA-06,Virginia,N
+51,VA,7,VA-07,Virginia,Y
+51,VA,8,VA-08,Virginia,N
+51,VA,9,VA-09,Virginia,N
+51,VA,10,VA-10,Virginia,N
+51,VA,11,VA-11,Virginia,N
+53,WA,1,WA-01,Washington,N
+53,WA,2,WA-02,Washington,N
+53,WA,3,WA-03,Washington,N
+53,WA,4,WA-04,Washington,N
+53,WA,5,WA-05,Washington,N
+53,WA,6,WA-06,Washington,N
+53,WA,7,WA-07,Washington,N
+53,WA,8,WA-08,Washington,Y
+53,WA,9,WA-09,Washington,N
+53,WA,10,WA-10,Washington,N
+54,WV,1,WV-01,West Virginia,N
+54,WV,2,WV-02,West Virginia,N
+54,WV,3,WV-03,West Virginia,N
+55,WI,1,WI-01,Wisconsin,N
+55,WI,2,WI-02,Wisconsin,N
+55,WI,3,WI-03,Wisconsin,N
+55,WI,4,WI-04,Wisconsin,N
+55,WI,5,WI-05,Wisconsin,N
+55,WI,6,WI-06,Wisconsin,N
+55,WI,7,WI-07,Wisconsin,N
+55,WI,8,WI-08,Wisconsin,N
+56,WY,0,WY-00,Wyoming,N
+60,AS,98,AS-98,American Samoa,N
+66,GU,98,GU-98,Guam,N
+69,MP,98,MP-98,Commonwealth of the Northern Mariana Islands,N
+72,PR,98,PR-98,Puerto Rico,N
+78,VI,98,VI-98,U.S. Virgin Islands,N
