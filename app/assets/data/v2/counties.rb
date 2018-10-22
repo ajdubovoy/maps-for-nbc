@@ -57,37 +57,38 @@ CSV.foreach('voting_machines.csv', csv_options) do |row|
   voting_machines << row.to_hash
 end
 
-final_data = final_data.each do |row|
-  voting_row = voting_machines.find { |population_row| population_row['CountyID'] == row['fips'] }
+final_data.each do |row|
+  voting_row = voting_machines.find { |population_row| population_row['CountyID'].to_i == row['fips'].to_i }
   unless voting_row.nil?
     row['2016_registration'] = voting_row['Reg_Tot']
-    row['dd_reg_percentage'] = ( row['2016_registration'].to_i.fdiv( row['population'].to_i) * 100
+    row['dd_reg_percentage'] = (row['2016_registration'].to_i.fdiv( row['population'].to_i) * 100
                                ).round
     row['2016_ballots_cast'] = '?'
     row['dd_2016_turnout'] = '?'
     row['dd_2016_participation'] = '?'
     row['dd_xyz'] ='?'
+    row['2016_vbm'] = '?'
   end
 end
 
-grouped_voting_machines = voting_machines.group_by { |element| element['FIPS code'] }
+invalid = []
+grouped_voting_machines = voting_machines.group_by { |element| element['CountyID'] }
 grouped_voting_machines.each do |fips, group|
   dates = []
-  invalid = 0
   group.each do |entry|
     begin
-      dates << Date.parse(entry['Begin use'])
+      dates << Date.strptime(entry['Begin use'], "%m/%d/%Y")
     rescue
-      invalid += 1
+      invalid << entry['Begin use']
     end
   end
-  puts "#{invalid} dates were invalid, for example #{invalid[0]}."
 
   sorted = dates.sort
   oldest = sorted[0]
 
-  row = final_data.find { |datum| datum['fips'] == fips }
-  row['equipment_age'] = "#{oldest.year}-#{oldest.month}-#{oldest.day}" unless row.nil?
+  row = final_data.find { |datum| datum['fips'].to_i == fips.to_i }
+  year = oldest.year < 20 ? oldest.year + 2000 : oldest.year + 1900
+  row['equipment_age'] = "#{year}-#{oldest.month}-#{oldest.day}" unless row.nil? || oldest.nil?
 end
 
 # Paper Status
@@ -103,11 +104,11 @@ grouped_vvpats.each do |fips, group|
   row = final_data.find { |datum| datum['fips'].to_i == fips.to_i }
 
   if group.any? { |datum| datum['VVPAT'] == 'No' }
-    row['vvpat'] = 'some_paperless' unless row.nil?
+    row['paper_status'] = 'some_paperless' unless row.nil?
   elsif group.any? { |datum| datum['VVPAT'] == 'Yes' }
-    row['vvpat'] = 'vvpat_provided_not_paperless' unless row.nil?
+    row['paper_status'] = 'vvpat_provided_not_paperless' unless row.nil?
   elsif group.all? { |datum| datum['VVPAT'] == 'N/A' }
-    row['vvpat'] = 'paper_only' unless row.nil?
+    row['paper_status'] = 'paper_only' unless row.nil?
   end
 end
 
@@ -119,19 +120,19 @@ CSV.foreach('statesV-05-Oct20.csv', csv_options) do |row|
 end
 
 final_data.each do |row|
-  selected_state = states.find { |state| state['FIPS State'] == row['state'] }
-  row['senate_toss_up'] == selected_state['Senate_Toss_Up'] unless selected_state.nil?
+  selected = states.find { |state| row['state'].to_i == state['FIPS_State'].to_i }
+  row['senate_toss_up'] == selected["Senate_Toss_Up"] unless selected.nil?
 end
 
 
 cdcounties = []
-CSV.foreach('statesV-05-Oct20.csv', csv_options) do |row|
-  cdcounties << row.to_hash unless cdcounties.nil?
+CSV.foreach('counties-within-cds.csv', csv_options) do |row|
+  cdcounties << row.to_hash
 end
 
 final_data.each do |row|
-  cd = cdcounties.find { |cd_row| cd_row['STATEFP'] == row['state'] && cd_row['COUNTYFP'] == row['county'] }
-  row['cd'] == cd['CD115FP'] unless cd.nil?
+  selected = cdcounties.find { |cd_row| row['state'].to_i == cd_row['STATEFP'].to_i && row['county'].to_i == cd_row['COUNTFP'].to_i }
+  row['cd'] == cd['CD115FP'] unless selected.nil?
 end
 
 cds = []
@@ -140,7 +141,7 @@ CSV.foreach('CDs-V4-Oct19.csv', csv_options) do |row|
 end
 
 final_data.each do |row|
-  cd = cds.find { |cd_row| cd_row['STATE_FIPS'] == row['state'] && cd_row['CD_115_FIPS'] == row['cd'] }
+  cd = cds.find { |cd_row| cd_row['STATE_FIPS'].to_i == row['state'].to_i && cd_row['CD_115_FIPS'].to_i == row['cd'].to_i }
   row['senate_toss_up'] == cd['CD_TossUp'] unless cd.nil?
 end
 
